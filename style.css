@@ -35,3 +35,37 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+#list{
+  background-color:black;
+  color:white;
+}
+
+li.priority-high {
+  color: red;
+}
+
+li.priority-medium {
+  color: yellow;
+}
+
+li.priority-low {
+  color: green;
+}
+
+
+select {
+  background-color: #fff; /* set a default background color */
+}
+
+option[value="high"] {
+  background-color: red;
+}
+
+option[value="medium"] {
+  background-color: yellow;
+}
+
+option[value="low"] {
+  background-color: green;
+}
